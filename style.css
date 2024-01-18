@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 620px;
+    height: 400px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, rgba(255, 255, 255, ));
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+#tag {
+    color: white;
+    border: 1px white solid;
+    padding: 5px;
+    text-align: center;
+}
+
+#game {
+    max-width: 500px;
+    height: 100%;
+    max-height: 400px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#stats {
+    border: 1px white solid;
+    padding: 5px;
+}
+
+#buttons {
+    border: 1px white solid;
+    padding: 5px;
+}
+
+button {
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#enemyStats {
+    display: none;
+    border: 1px white solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+#text {
+    border: 1px white solid;
+    padding: 5px;
+    height: 70%;
+}
